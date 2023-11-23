@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans',sans-serif;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    background-image: url("box.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+nav{
+    /* background-color: rgb(153, 199, 255); */
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    background:black;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+}
+.logo{
+    margin: 10px 10px;
+    color: aquamarine;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+ ul {
+    display : flex;
+    margin : 0 23px;
+
+}
+ul > li:hover{
+    color: white;
+}
+.pass{
+    color: rgb(0, 195, 255);
+}
+ul li{
+    color: aqua;
+    list-style: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+table,td,tr{
+    border: 3px solid rgb(53, 241, 219);
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container{
+    max-width: 80vw;
+    margin :23px auto;
+    color: rgb(255, 255, 255);
+}
+h2{
+    margin: 23px;
+    margin-left: 0px;
+}
+.btn{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 700;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+.btnsm{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 700;
+    border: 2px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+img{
+    cursor: pointer;
+    position:relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+#alert{
+    display: none;
+}
