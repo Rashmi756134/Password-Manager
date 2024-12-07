@@ -6,7 +6,7 @@
 
 }
 body{
-    background-image: url("box.jpg");
+    background-image: url("cyber.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:100% 100%;
@@ -16,7 +16,7 @@ nav{
     padding: 12px 20px;
     display: flex;
     justify-content: space-between;
-    background:black;
+    background:rgb(3, 98, 231);
     border: 2px solid aqua;
     border-radius: 10px;
     backdrop-filter: blur(40px);
@@ -38,7 +38,7 @@ ul > li:hover{
     color: white;
 }
 .pass{
-    color: rgb(0, 195, 255);
+    color: rgb(0, 8, 255);
 }
 ul li{
     color: aqua;
@@ -48,6 +48,10 @@ ul li{
     font-weight: bold;
     padding-top: 7px;
     padding-left: 20px;
+}
+a{
+    color: aqua;
+    text-decoration: none;
 }
 table,td,tr{
     border: 3px solid rgb(53, 241, 219);
